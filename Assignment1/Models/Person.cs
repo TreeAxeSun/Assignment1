@@ -7,12 +7,13 @@ namespace Assignment1.Models
 {
     public class Person
     {
-        public string FirstName = "YoungSeok";
-        public string LastName = "AHN";
-        public string NickName = "YS";
-        public string Gender = "Male";
-        public string DOB = "Jun 25 1975"
-        public string Email = "veris1975@outlook.com";
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string NickName { get; set; }
+        public string Gender { get; set; }
+        public string DOB { get; set; }
+        public string Email { get; set; }
 
     }
 }

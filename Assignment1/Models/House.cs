@@ -7,11 +7,12 @@ namespace Assignment1.Models
 {
     public class House
     {
-        public int Valu = 10;
-        public int LotSize = 10;
-        public string Address = "Fairhaven Rd.";
-        public string City = "Winnipeg";
-        public string State = "Manitoba";
-        public string PostalCode = "R3P 0Z1";
+        public int Id { get; set; }
+        public int Value { get; set; }
+        public int LotSize { get; set; }
+        public string Address { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string PostalCode { get; set; }
     }
 }
